@@ -24,7 +24,7 @@ Whereas this is the same altimeter shown  as a package on the PCB layout (note t
 
 ![Eagle Package](EaglePackage2.png)
 
-Without changing the circuit diagram, the PCB layout could be changed. For example, there are many other ways the traces could be routed for this circuit. Or, instead of using a 0402 size capacitor for C5, a different size could be chosen. This doesn't change the *circuit* only its *physical design*.
+Without changing the circuit diagram, the PCB layout could be changed. For example, there are many other ways the traces could be routed for this circuit. Or, instead of using a [0402 size capacitor](http://www.resistorguide.com/resistor-sizes-and-packages/) for C5, a different size could be chosen. This doesn't change the *circuit* only its *physical design*.
 
 > An _Eagle Library_ is a collection of devices and their respective Symbols and Packages.
 
