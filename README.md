@@ -49,6 +49,8 @@ Although it seems a little overwhelming and convoluted at first, creating your c
 
 An elaborate guide on how to create custom components in Eagle can be found [here](https://www.autodesk.com/products/eagle/blog/library-basics-part-1-creating-first-package-autodesk-eagle/). When adding components to the library, be sure to push your changes to keep the master branch up to date!
 
+An automated way of creating packages is through Autodesks online tool [Library.io](https://library.io/). This tool also creates 3D models of your components for use in Fusion360.
+
 ### Resources
 
 The symbol and the package shown in the examples above were both made based on the [MPL3115A2's datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Pressure/MPL3115A2.pdf). Datasheets can be found on vendors' websites such as:
