@@ -53,4 +53,4 @@ In order to make collaboration possible, all people who use an Eagle design file
 
 ### Creating new Components
 
-An elaborate guide on how to create custom components in Eagle can be found here: <https://www.autodesk.com/products/eagle/blog/library-basics-part-1-creating-first-package-autodesk-eagle/>
+Creating devices in Eagle is easy, albeit a bit convoluted if you're just starting out. An elaborate guide on how to create custom components in Eagle can be found here: <https://www.autodesk.com/products/eagle/blog/library-basics-part-1-creating-first-package-autodesk-eagle/>
