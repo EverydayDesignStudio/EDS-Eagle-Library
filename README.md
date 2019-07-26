@@ -54,9 +54,9 @@ An automated way of creating packages is through Autodesks online tool [Library.
 ### Resources
 
 The symbol and the package shown in the examples above were both made based on the [MPL3115A2's datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Pressure/MPL3115A2.pdf). Datasheets can be found on vendors' websites such as:
-- [Adafruit](www.adafruit.com)
-- [Sparkfun](www.sparkfun.com)
-- [Digikey](www.digikey.ca)
-- [Mouser](www.mouser.ca)
+- [Adafruit](https://www.adafruit.com/)
+- [Sparkfun](https://www.sparkfun.com/)
+- [Digikey](https://www.digikey.ca/)
+- [Mouser](https://www.mouser.ca/)
 
 Furthermore, it is good to know that Adafruit and Sparkfun open-source their products. So whenever you've used a breakout board from either vendor, you can find the schematic and PCB layout on the respective product page to include in your own PCB design project.
