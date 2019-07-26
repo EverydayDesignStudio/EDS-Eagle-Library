@@ -53,4 +53,6 @@ In order to make collaboration possible, all people who use an Eagle design file
 
 ### Creating new Components
 
-Creating devices in Eagle is easy, albeit a bit convoluted if you're just starting out. An elaborate guide on how to create custom components in Eagle can be found here: <https://www.autodesk.com/products/eagle/blog/library-basics-part-1-creating-first-package-autodesk-eagle/>
+Although it seems a little overwhelming and convoluted at first, creating your custom devices in Eagle is easy! It also gives you the freedom to do specific things with your components that might typically not be done (like a heatsink under your chip, or a specific marking around a component).
+
+An elaborate guide on how to create custom components in Eagle can be found here: <https://www.autodesk.com/products/eagle/blog/library-basics-part-1-creating-first-package-autodesk-eagle/>
