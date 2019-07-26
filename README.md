@@ -9,11 +9,11 @@ When working on PCB design projects, you will encounter all sorts of components 
 
 In short, when you use a component (called a *Device* in Eagle) it consists of a *symbol* and a *package*. The symbol is the symbolic representation as used in a circuit diagram. The package is the physical shape and layout on the PCB of that component.
 
-To illustrate, this is the *symbol* for the MPL3115A2 Altimeter used in Capra:
+To illustrate, below, you see the *symbol* for the MPL3115A2 Altimeter used in Capra. This is an abstraction of the component, showing only its terminals (or 'pins') and their names.
 
 ![MPL3115A2 symbol](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/EagleSymbol1.png)
 
-And this is the corresponding package:
+This is the corresponding package. Note that the actual physical size of the component and the relative configuration of the terminals is reflected in the package.
 ![MPL3115A2 symbol](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/EaglePackage1.png)
 
 To further contextualise; this is the *symbolic* circuit diagram of the MPL3115A2 Altimeter as used in Capra:
