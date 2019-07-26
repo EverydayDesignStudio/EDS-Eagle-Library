@@ -24,15 +24,7 @@ Whereas this is the same altimeter shown  as a package on the PCB layout (note t
 
 ![Eagle Package](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/EaglePackage2.png)
 
-> Note: The symbol and the package shown above were both made based on the [MPL3115A2's datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Pressure/MPL3115A2.pdf). Datasheets can be found on vendors' websites such as:
-- [Adafruit](www.adafruit.com)
-- [Sparkfun](www.sparkfun.com)
-- [Digikey](www.digikey.ca)
-- [Mouser](www.mouser.ca)
-
 Without changing the circuit diagram, the PCB layout could be changed. For example, there are many other ways the traces could be routed for this circuit. Or, instead of using a [0402 size capacitor](http://www.resistorguide.com/resistor-sizes-and-packages/) for C5, a different size could be chosen. This doesn't change the *circuit* only its *physical design*.
-
-> An _Eagle Library_ is a collection of devices and their respective Symbols and Packages.
 
 ## How do I proceed?
 In order to make collaboration possible, all people who use an Eagle design file must have access to the same Eagle components. That's why it's advisable to use this collaborative Eagle library and push any new components to this repo. It'll save you time because you won't have to create packages from scratch and it will make collaboration easier, as it will allow others in the studio to build on the designs you create.
@@ -56,3 +48,13 @@ In order to make collaboration possible, all people who use an Eagle design file
 Although it seems a little overwhelming and convoluted at first, creating your custom devices in Eagle is easy! It also gives you the freedom to do specific things with your components that might typically not be done (like a heatsink under your chip, or a specific marking around a component).
 
 An elaborate guide on how to create custom components in Eagle can be found here: <https://www.autodesk.com/products/eagle/blog/library-basics-part-1-creating-first-package-autodesk-eagle/>
+
+### Resources
+
+The symbol and the package shown in the examples above were both made based on the [MPL3115A2's datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Pressure/MPL3115A2.pdf). Datasheets can be found on vendors' websites such as:
+- [Adafruit](www.adafruit.com)
+- [Sparkfun](www.sparkfun.com)
+- [Digikey](www.digikey.ca)
+- [Mouser](www.mouser.ca)
+
+Furthermore, it is good to know that Adafruit and Sparkfun open-source their products. So whenever you've used a breakout board from either vendor, you can find the schematic and PCB layout on the respective product page to include in your own PCB design project.
