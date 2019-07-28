@@ -20,11 +20,12 @@ To further contextualise; this is the *symbolic* circuit diagram of the MPL3115A
 
 ![Eagle Symbol](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/EagleSymbol2.png)
 
-Whereas this is the same altimeter shown  as a package on the PCB layout (note that the two pull up resistors R4 & R5 are not shown in this image):
+Whereas this is the same altimeter shown  as a *package* on the PCB layout (note that the two pull up resistors R4 & R5 are not shown in this image).
 
 ![Eagle Package](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/EaglePackage2.png)
 
-Without changing the circuit diagram, the PCB layout could be changed. For example, there are many other ways the traces could be routed for this circuit. Or, instead of using a [0402 size capacitor](http://www.resistorguide.com/resistor-sizes-and-packages/) for C5, a different size could be chosen. This doesn't change the *circuit* only its *physical design*.
+Without changing the circuit diagram, the PCB layout could be changed. For example, there are many other ways the traces could be routed for this circuit. Or, instead of using a 0402 size capacitor for C5, a different size could be chosen [(more about SMD component sizes here)](http://www.resistorguide.com/resistor-sizes-and-packages/). This doesn't change the *circuit* only its *physical design*. Note that some chips are available in several packages. Take for example the MCP3008 Analog-to-Digital Converter (ADC); available in three packages as shown below (screenshot from the [MCP3008 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf)). Depending on what size is desired, and what soldering technology is available; one might choose one form over another. An incomplete description of some standard packages can be found [here](https://www.electronics-notes.com/articles/electronic_components/surface-mount-technology-smd-smt/packages.php)
+![MCP3008 Packages](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/Packages.png)
 
 ## How do I proceed?
 In order to make collaboration possible, all people who use an Eagle design file must have access to the same Eagle components. That's why it's advisable to use this collaborative Eagle library and push any new components to this repo. It'll save you time because you won't have to create packages from scratch and it will make collaboration easier, as it will allow others in the studio to build on the designs you create.
