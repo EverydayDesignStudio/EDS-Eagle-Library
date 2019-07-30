@@ -14,7 +14,7 @@ To illustrate, below, you see the *symbol* for the MPL3115A2 Altimeter used in C
 ![MPL3115A2 symbol](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/images/Eagle/EagleSymbol1.png)
 
 This is the corresponding package. Note that the actual physical size of the component and the relative configuration of the terminals is reflected in the package.
-![MPL3115A2 symbol](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/images/capra/EaglePackage1.png)
+![MPL3115A2 symbol](https://raw.githubusercontent.com/EverydayDesignStudio/guides/master/images/Eagle/EaglePackage1.png)
 
 To further contextualise; this is the *symbolic* circuit diagram of the MPL3115A2 Altimeter as used in Capra:
 
